@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(68, 217, 230); 
+}
+h1 {
+  color:gray;
+  font-family:'verdana', sans-serif;
+  font-size:65px;
+
+}
+p {
+  padding-left: 20px;
+  font-family: 'Lato';
+  text-align: justify;
+  margin-left:100Px;
+  margin-right:100px;
+  font-weight:500;
+  border-left: 4px rgb(247,133,31) dotted;
+  color: rgb(35,116,122) ;
+}
+
+.sans p{
+  border-left: none;
+}
+
+h3{
+  margin-left:10Px;
+  color:rgb(35,116,122);
+  font-family: sans-serif;
+  /*text-shadow: -1px -1px 3px rgba(247,133,31,0.5);*/
+}
+h2 {
+  margin-left:10Px;
+  padding-left: 20px ;
+  margin-right: 100px;
+  border-top: 1px solid rgb(35,116,122) ;
+  border-left: 2px solid rgb(35,116,122) ;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size:30px;
+  color: rgb(247,133,31) ;
+  text-shadow: 1px 1px 3px rgb(25,25,25);
+}
+
+a{
+  color:rgb(247, 133, 31);
+  /*text-shadow: -1px 2px 1px rgb(5,5,5);*/
+  text-decoration-color:transparent;
+}
+
+a:visited{
+  color: none; 
+}
+
+a#menu{
+  font-size:24px;
+}
+
+ul1 {
+  list-style-type: none;
+}
+
+li1{
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-left:10Px;
+  padding-left: 20px ;
+  margin-right: 0;
+  font-family: 'Barlow Condensed';
+  text-align: left;
+  font-size:22px;
+  color:#9384c4;
+} 
+
+ul {
+  /*list-style-type: dotted;*/
+  clear:left;
+}
+
+li {
+  padding-left: 20px;
+  font-family: 'Lato';
+  text-align: justify;
+  margin-left:100Px;
+  margin-right:100px;
+  font-weight:500;
+  border-left: none;
+  color: rgb(35,116,122) ;
+}
+
+@keyframes  slider
+{
+  0%   { top:0%;}
+  30%  { top:0%;}
+  45%  { top:-115%;}
+  70%  { top:-115%;}
+  75%  { top:-223%;}
+  90%  {top:-223%;} 
+  100%  { top:0%;}
+}
+
+div#outerdiv
+{
+  position: relative;
+
+  width:800px;
+  height: 240px;
+  overflow: hidden;
+}
+
+div#innerdiv
+{
+  position: relative;
+  height: 125%;
+  width: 100%;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#box2 {
+  width:1400px;
+  height:425px;
+
+  background-image:url("Image-projet/Habilitation ISN.png");
+  background-repeat:no-repeat;
+}
+
+#box1 {
+  width:300px;
+  height:800px;
+  position:absolute;
+  top:475px;
+  left:0px;
+  border:2px solid rgba(35,116,122,0.5);
+}
+
+#box3 {
+  background: rgb(68, 217, 230);
+  width:1050px;
+  height:800px;
+  position:absolute;
+  top:475px;
+  left:350px;
+
+
